@@ -35,7 +35,7 @@ server.applyMiddleware({ app });
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../client/build')));
 }
-// fail safe for wrong GET routes
+// fail safe for wrong GET routes 404 catch all
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
