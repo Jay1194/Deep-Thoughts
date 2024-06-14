@@ -3,6 +3,7 @@ import ThoughtList from '../components/ThoughtList';
 import { QUERY_THOUGHTS, QUERY_ME_BASIC } from '../utils/queries';
 import Auth from '../utils/auth';
 import FriendList from '../components/FriendList';
+import ThoughtForm from '../components/ThoughtForm';
 
 // allow us to make requests to the GraphQL server we connected to and made available to the application using the <ApolloProvider> component in App.js earlier.
 import { useQuery } from '@apollo/client';
@@ -23,7 +24,12 @@ const Home = () => {
   return (
     <main>
   <div className="flex-row justify-space-between">
-  <div className={`col-12 mb-3 ${loggedIn && 'col-lg-8'}`}>
+    {loggedIn && (
+      <div className="col-12 mb-3">
+        <ThoughtForm />
+      </div>
+    )}
+    <div className={`col-12 mb-3 ${loggedIn && 'col-lg-8'}`}>
   {loading ? (
     <div>Loading...</div>
   ) : (
