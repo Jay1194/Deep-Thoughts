@@ -1,6 +1,8 @@
 # Deep Thoughts Social Media App
 
 Deep Thoughts is a social media application built with the MERN stack (MongoDB, Express.js, React, Node.js). Users can sign up, post their thoughts, and interact with others, similar to real-life social media apps.
+
+
 ![Screenshot 2024-06-13 at 8 22 21 PM](https://github.com/Jay1194/Deep-Thoughts/assets/105843570/fe650d7b-9a0a-444e-8ae2-830226ce6ce1)
 
 
