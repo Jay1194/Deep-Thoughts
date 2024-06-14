@@ -73,7 +73,7 @@ In the project directory, you can run:
 - `npm run server`: Runs the Express.js server only.
 - `npm run client`: Runs the React client only.
 
-## Project Structure
+  ## Project Structure
 
 ```plaintext
 deep-thoughts/
@@ -93,7 +93,7 @@ deep-thoughts/
 ├── .gitignore
 ├── package.json
 └── README.md
-
+```
 ## Learn More
 
 - **MongoDB**: NoSQL database for flexible data storage.
@@ -111,5 +111,4 @@ deep-thoughts/
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 
